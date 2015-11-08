@@ -48,14 +48,4 @@ Gem::Specification.new do |spec|
 
   spec.add_runtime_dependency "rollbar"
 
-  #####################################################
-  # Capistrano Deployment
-  #####################################################
-
-  spec.add_development_dependency 'capistrano', '>= 3.4.0'
-  spec.add_development_dependency 'capistrano-rails' #, require: false # deployment rails hooks
-  spec.add_development_dependency 'capistrano-bundler' #, require: false # deployment bundler hooks
-  spec.add_development_dependency 'capistrano-rbenv'
-  spec.add_development_dependency 'capistrano-rbenv-install'
-
 end
