@@ -2,7 +2,10 @@
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/silvermind_deployment`. To experiment with that code, run `bin/console` for an interactive prompt.
 
-TODO: Delete this and the text above, and describe your gem
+includes:
+
+- Unicorn as Webserver
+- Capistrano for Deployment
 
 ## Installation
 
@@ -22,7 +25,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+add gem, bundle, copy configs, deploy
 
 ## Development
 
@@ -32,7 +35,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/silvermind_deployment/fork )
+1. Fork it ( https://github.com/silvermind/silvermind_deployment/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
