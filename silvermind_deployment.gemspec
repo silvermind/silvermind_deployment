@@ -43,6 +43,12 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "unicorn", ">= 5.0.0"
 
   #####################################################
+  # Error Reporting
+  #####################################################
+
+  spec.add_runtime_dependency "rollbar"
+
+  #####################################################
   # Capistrano Deployment
   #####################################################
 
