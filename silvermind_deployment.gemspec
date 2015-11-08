@@ -30,6 +30,20 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.9"
   spec.add_development_dependency "rake", "~> 10.0"
 
-  spec.add_development_dependency "unicorn"
+  #####################################################
+  # Unicorn
+  #####################################################
+
+  spec.add_runtime_dependency "unicorn"
+
+  #####################################################
+  # Capistrano Deployment
+  #####################################################
+
+  spec.add_runtime_dependency 'capistrano'
+  spec.add_runtime_dependency 'capistrano-rails' #, require: false # deployment rails hooks
+  spec.add_runtime_dependency 'capistrano-bundler' #, require: false # deployment bundler hooks
+  spec.add_runtime_dependency 'capistrano-rbenv'
+  spec.add_runtime_dependency 'capistrano-rbenv-install'
 
 end
