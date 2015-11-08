@@ -7,6 +7,7 @@ module SilvermindDeployment
     source_root File.expand_path(File.join(File.dirname(__FILE__), 'templates'))
 
     def copy_unicorn
+      template 'Capfile', 'Capfile'
       template 'deploy.rb', 'config/deploy.rb'
       template 'deploy/production.rb', 'config/deploy/production.rb'
 
