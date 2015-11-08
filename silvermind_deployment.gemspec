@@ -31,19 +31,25 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rake", "~> 10.0"
 
   #####################################################
+  # Eye
+  #####################################################
+
+  spec.add_runtime_dependency "eye", "0.8.pre2" #git: "git@github.com:kostya/eye.git", tag: "v0.8.pre"
+
+  #####################################################
   # Unicorn
   #####################################################
 
-  spec.add_runtime_dependency "unicorn"
+  spec.add_runtime_dependency "unicorn", ">= 5.0.0"
 
   #####################################################
   # Capistrano Deployment
   #####################################################
 
-  spec.add_runtime_dependency 'capistrano'
-  spec.add_runtime_dependency 'capistrano-rails' #, require: false # deployment rails hooks
-  spec.add_runtime_dependency 'capistrano-bundler' #, require: false # deployment bundler hooks
-  spec.add_runtime_dependency 'capistrano-rbenv'
-  spec.add_runtime_dependency 'capistrano-rbenv-install'
+  spec.add_development_dependency 'capistrano', '>= 3.4.0'
+  spec.add_development_dependency 'capistrano-rails' #, require: false # deployment rails hooks
+  spec.add_development_dependency 'capistrano-bundler' #, require: false # deployment bundler hooks
+  spec.add_development_dependency 'capistrano-rbenv'
+  spec.add_development_dependency 'capistrano-rbenv-install'
 
 end
