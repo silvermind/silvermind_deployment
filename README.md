@@ -29,7 +29,7 @@ add gem, bundle, copy configs, deploy
 
 execute to copy the files:
 
-    $ bundle exec rails generator silvermind_deployment:install
+    $ bundle exec rails generate silvermind_deployment:install
     
 
 ## Development

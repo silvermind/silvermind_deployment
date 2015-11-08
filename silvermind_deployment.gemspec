@@ -47,6 +47,7 @@ Gem::Specification.new do |spec|
   #####################################################
 
   spec.add_runtime_dependency "rollbar"
+  spec.add_runtime_dependency "newrelic_rpm"
 
   #####################################################
   # Capistrano Deployment
