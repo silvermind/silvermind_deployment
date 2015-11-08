@@ -27,6 +27,11 @@ Or install it yourself as:
 
 add gem, bundle, copy configs, deploy
 
+execute to copy the files:
+
+    $ bundle exec rails generator silvermind_deployment:install
+    
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `bin/console` for an interactive prompt that will allow you to experiment.
