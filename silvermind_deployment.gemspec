@@ -34,7 +34,7 @@ Gem::Specification.new do |spec|
   # Eye
   #####################################################
 
-  spec.add_runtime_dependency "eye", "0.8.pre2" #git: "git@github.com:kostya/eye.git", tag: "v0.8.pre"
+  spec.add_runtime_dependency "eye", "0.8" #git: "git@github.com:kostya/eye.git", tag: "v0.8.pre"
 
   #####################################################
   # Unicorn
